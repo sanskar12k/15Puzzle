@@ -196,7 +196,7 @@ function shuffle() {
             timeshown = 0;
             document.getElementById('timee1').style.display = "none";
             countDownDate = new Date().getTime();
-            i++;
+            i = 0;
         }
     }
 }
