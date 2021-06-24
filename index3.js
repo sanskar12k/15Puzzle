@@ -276,7 +276,7 @@ function checkWin(){
              if(typeof(Storage) !== 'undefined'){
                var parElement = document.getElementById("highScore");
                var para =  document.createElement("li");
-               para.innerHTML = localStorage.getItem('hS[j]')+"s"; 
+               para.innerHTML = localStorage.getItem('hS[j]')+"seconds"; 
                parElement.appendChild(para);
                j++;
               }
