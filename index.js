@@ -321,7 +321,7 @@ function checkWin(){
              if(typeof(Storage) !== 'undefined'){
                var parElement = document.getElementById("highScore");
                var para =  document.createElement("li");
-               para.innerHTML = localStorage.getItem('hS[j]'); 
+               para.innerHTML = localStorage.getItem('hS[j]')+"s"; 
                parElement.appendChild(para);
                j++;
               }
