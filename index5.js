@@ -1,4 +1,4 @@
-var i = 0;
+var i = 0; // Count moves
 let winchance = 0;
 var timeshown = 0;
 var hS = [];
@@ -252,7 +252,7 @@ function shuffle() {
             timeshown = 0;
             document.getElementById('timee1').style.display = "none";
             countDownDate = new Date().getTime();
-            i++;
+            i = 0;
         }
     }
 }
